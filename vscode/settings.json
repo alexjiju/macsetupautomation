@@ -1,0 +1,30 @@
+{
+    "editor.fontSize": 17,
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    },
+    "window.zoomLevel": -1,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "materialTheme.accent": "Cyan",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Visual Studio 2019 Dark",
+    "git.autofetch": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "afterDelay",
+    "prettier.useTabs": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ]
+}
